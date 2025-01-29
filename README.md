@@ -1,4 +1,5 @@
 # Glean
+[![smithery badge](https://smithery.ai/badge/@longyi1207/glean)](https://smithery.ai/server/@longyi1207/glean)
 
 An MCP server implementation that integrates the Glean API, providing the Search and Chat functions.
 
@@ -35,6 +36,14 @@ Then add this to your `claude_desktop_config.json`:
     }
   }
 }
+```
+
+### Installing via Smithery
+
+To install Glean for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@longyi1207/glean):
+
+```bash
+npx -y @smithery/cli install @longyi1207/glean --client claude
 ```
 
 ## License
